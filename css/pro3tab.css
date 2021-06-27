@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: yellowgreen; */
+}
+.navigation::before {
+  content: "";
+  background-image: url("../media/beachbg3\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 146%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+  filter: alpha(opacity=30);
+}
+#coverimagetext {
+  width: max-content;
+  position: relative;
+  top: -106px;
+  left: 47%;
+}
+#cardbox {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 189px;
+}
+#gallery {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  height: 518px;
+  left: 20px;
+  /* top: 80px; */
+  width: 1087px;
+  margin-top: 94px;
+}
+.speicalplace {
+  display: grid;
+  grid-template-columns: 33% auto auto;
+  grid-gap: 10px;
+  background-color: #edf1f5c2;
+  padding: 10px;
+  position: relative;
+  top: 1032px;
+  padding: 114px 1px 116px 0px;
+  width: 1097px;
+}
+#gallerybox {
+  border: 2px solid gold;
+  background-color: rgba(220, 212, 212, 0.45);
+  color: black;
+  width: 35%;
+  height: 33%;
+  position: absolute;
+  top: 385px;
+  left: 669px;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  height: 300px;
+}
+#k2 {
+  display: grid;
+  grid-template-columns: 20% 30% auto;
+  background-color: rgb(51, 48, 48);
+  color: white;
+  position: relative;
+  top: 1037px;
+  width: 1105px;
+  height: 790px;
+}
+#mainsec {
+  position: relative;
+  top: 1100px;
+  width: 1116px;
+}
+#sectionbox {
+  background-color: #426a8252;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  flex-flow: column;
+}
+
+.secboxitems img {
+  width: 488px;
+  height: 411px;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 351px;
+}
+.center {
+  text-align: center;
+  font-size: 54px;
+  margin-top: 22px;
+  margin-left: -146px;
+}
+#ourmisson {
+  background-color: rgba(20, 20, 20, 0.445);
+  bottom: 0px;
+  top: 1133px;
+  position: relative;
+  margin-top: -29px;
+  margin-bottom: 40px;
+  width: 1116px;
+}
+#Wildlife {
+  background-color: rgba(230, 220, 222, 0.808);
+  position: relative;
+  top: 1070px;
+  display: grid;
+  width: 1110 px;
+  width: 1110px;
+}
+#grid1item2 {
+  margin-top: 22px;
+  position: relative;
+  left: 70px;
+  /* height: 450px; */
+}
+#grid2item2 img {
+  width: 550px;
+  height: 550px;
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px rgb(14, 13, 13);
+  position: relative;
+  top: -230px;
+  left: 71px;
+}
+#contantus {
+  position: relative;
+  top: 1074px;
+  background-color: black;
+  color: white;
+  width: 1110px;
+}
+#footer {
+  position: relative;
+  top: 1100px;
+  background-color: rgba(26, 26, 24, 0.767);
+  width: 1110px;
+  /* top: 12px; */
+  margin-top: -21px;
+}

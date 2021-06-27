@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  width: 1100px;
+}
+
+.navigation::before {
+  content: "";
+  background-image: url("../media/beachbg3\ \(2\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 190%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+  filter: alpha(opacity=30);
+}
+#coverimagetext {
+  width: max-content;
+  position: relative;
+  top: -106px;
+  left: 69%;
+}
+#coverimagetext h1 {
+  font-size: 42px;
+  font-family: "Crimson Text", serif;
+  font-weight: 500;
+  color: white;
+}
+#coverimagetext h6 {
+  font-size: 21px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  direction: rtl;
+  color: white;
+  text-align: center;
+  margin-top: -14px;
+}
+#cardbox {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 275px;
+}
+#gallery {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  height: 520px;
+
+  left: 99px;
+  /* top: 80px; */
+  width: 1100px;
+  margin-top: 94px;
+}
+#gallerybox {
+  border: 2px solid gold;
+  background-color: rgba(220, 212, 212, 0.45);
+  color: black;
+  width: 35%;
+  height: 33%;
+  position: absolute;
+  top: 385px;
+  left: 705px;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  height: 300px;
+}
+.speicalplace {
+  display: grid;
+  grid-template-columns: 33% auto auto;
+  grid-gap: 10px;
+  background-color: #edf1f5c2;
+  padding: 10px;
+  position: relative;
+  top: 1032px;
+  padding: 114px 1px 116px 0px;
+  width: 1434px;
+}
+#k2 {
+  display: grid;
+  grid-template-columns: 20% 30% auto;
+  background-color: rgb(51, 48, 48);
+  color: white;
+
+  position: relative;
+  top: 1037px;
+  width: 1444px;
+  height: 700px;
+}
+#k2image h4 {
+  justify-content: center;
+  margin: 18px 0px 0px 12px;
+  font-size: 2;
+  font-size: 22px;
+  text-align: center;
+}
+#mainsec {
+  position: relative;
+  top: 1100px;
+  width: 1440px;
+}
+#ourmisson {
+  background-color: rgba(20, 20, 20, 0.445);
+  bottom: 0px;
+  top: 1133px;
+  position: relative;
+  margin-top: -29px;
+  margin-bottom: 40px;
+  width: 1439px;
+}
+#Wildlife {
+  background-color: rgba(230, 220, 222, 0.808);
+  position: relative;
+  top: 1070px;
+  display: grid;
+  width: 1447px;
+}
+#contantus {
+  position: relative;
+  top: 1100px;
+  background-color: black;
+  color: white;
+  width: 1446px;
+}
+#footer {
+  position: relative;
+  top: 1100px;
+  background-color: rgba(26, 26, 24, 0.767);
+  width: 1439px;
+  /* top: 12px; */
+  margin-top: -21px;
+}
